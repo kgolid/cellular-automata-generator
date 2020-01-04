@@ -1,0 +1,22 @@
+{
+  "name": "cag",
+  "version": "1.0.0",
+  "description": "Sketches showcasing isometric-automata generator.",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "browser": "dist/index.umd.js",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
+  },
+  "author": "Kjetil Golid",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kgolid/caaas.git"
+  },
+  "devDependencies": {
+    "rollup": "^0.67.4",
+    "rollup-plugin-node-resolve": "^3.4.0"
+  }
+}
