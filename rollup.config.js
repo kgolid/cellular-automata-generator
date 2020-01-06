@@ -4,7 +4,7 @@ export default [
   {
     input: 'index.js',
     output: {
-      name: 'cag',
+      name: 'cellular-automata-generator',
       file: pkg.browser,
       format: 'umd'
     }
